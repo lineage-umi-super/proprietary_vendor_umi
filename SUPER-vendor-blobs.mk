@@ -196,6 +196,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/umi/SUPER/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
+ vendor/umi/SUPER/proprietary/lib64/hw/camera.default.so:system/lib64/hw/camera.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
  vendor/umi/SUPER/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
@@ -383,6 +384,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
  vendor/umi/SUPER/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
  vendor/umi/SUPER/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+ vendor/umi/SUPER/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
  vendor/umi/SUPER/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
  vendor/umi/SUPER/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
  vendor/umi/SUPER/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
