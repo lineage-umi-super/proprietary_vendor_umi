@@ -42,9 +42,9 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/bin/dhcp6s:system/bin/dhcp6s \
  vendor/umi/SUPER/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
  vendor/umi/SUPER/proprietary/bin/dmlog:system/bin/dmlog \
- vendor/umi/SUPER/proprietary/bin/etsd:system/bin/etsd \
  vendor/umi/SUPER/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
  vendor/umi/SUPER/proprietary/bin/em_svr:system/bin/em_svr \
+ vendor/umi/SUPER/proprietary/bin/etsd:system/bin/etsd \
  vendor/umi/SUPER/proprietary/bin/fingerprintd:system/bin/fingerprintd \
  vendor/umi/SUPER/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
  vendor/umi/SUPER/proprietary/bin/fuelgauged:system/bin/fuelgauged \
@@ -183,7 +183,6 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
  vendor/umi/SUPER/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
  vendor/umi/SUPER/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
- vendor/umi/SUPER/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
  vendor/umi/SUPER/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
  vendor/umi/SUPER/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/umi/SUPER/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -212,14 +211,15 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libaal.so:system/lib64/libaal.so \
  vendor/umi/SUPER/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
  vendor/umi/SUPER/proprietary/lib64/libaed.so:system/lib64/libaed.so \
- vendor/umi/SUPER/proprietary/lib64/lib_agoldcam_hi553_mipi_raw_JC_0517A_v1.so:system/lib64/lib_agoldcam_hi553_mipi_raw_JC_0517A_v1.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldcam_imx230_mipi_raw_XL_9625A5_v1.so:system/lib64/lib_agoldcam_imx230_mipi_raw_XL_9625A5_v1.so \
+ vendor/umi/SUPER/proprietary/lib64/lib_agoldcam_s5k3l8_mipi_raw_SY_U5BM13_v1.so:system/lib64/lib_agoldcam_s5k3l8_mipi_raw_SY_U5BM13_v1.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldlens_dw9714af_v1.so:system/lib64/lib_agoldlens_dw9714af_v1.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldlens_dw9714af_v2.so:system/lib64/lib_agoldlens_dw9714af_v2.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldlens_dw9714af_v3.so:system/lib64/lib_agoldlens_dw9714af_v3.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldlens_dw9714af_v4.so:system/lib64/lib_agoldlens_dw9714af_v4.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldlens_dw9800af_v1.so:system/lib64/lib_agoldlens_dw9800af_v1.so \
  vendor/umi/SUPER/proprietary/lib64/lib_agoldlens_dw9800af_v2.so:system/lib64/lib_agoldlens_dw9800af_v2.so \
+ vendor/umi/SUPER/proprietary/lib64/libagoldtpglove_jni.so:system/lib64/libagoldtpglove_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libatciserv_jni.so:system/lib64/libatciserv_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libatvctrlservice.so:system/lib64/libatvctrlservice.so \
  vendor/umi/SUPER/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
@@ -227,6 +227,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
  vendor/umi/SUPER/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
  vendor/umi/SUPER/proprietary/lib64/libaudio_param_parser.so:system/lib64/libaudio_param_parser.so \
+ vendor/umi/SUPER/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
  vendor/umi/SUPER/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
  vendor/umi/SUPER/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
  vendor/umi/SUPER/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
@@ -237,8 +238,6 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libbluetooth_mtk.so:system/lib64/libbluetooth_mtk.so \
  vendor/umi/SUPER/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
  vendor/umi/SUPER/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
- vendor/umi/SUPER/proprietary/lib64/libEtsdc.so:system/lib64/libEtsdc.so \
- vendor/umi/SUPER/proprietary/lib64/libFpEts.so:system/lib64/libFpEts.so \
  vendor/umi/SUPER/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
  vendor/umi/SUPER/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
  vendor/umi/SUPER/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
@@ -262,6 +261,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
  vendor/umi/SUPER/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
  vendor/umi/SUPER/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
+ vendor/umi/SUPER/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
  vendor/umi/SUPER/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
  vendor/umi/SUPER/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
  vendor/umi/SUPER/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
@@ -273,6 +273,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
  vendor/umi/SUPER/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
  vendor/umi/SUPER/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
+ vendor/umi/SUPER/proprietary/lib64/libcomutils.so:system/lib64/libcomutils.so \
  vendor/umi/SUPER/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
  vendor/umi/SUPER/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
@@ -287,38 +288,63 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libeffect.facebeautypp.so:system/lib64/libeffect.facebeautypp.so \
  vendor/umi/SUPER/proprietary/lib64/libeffecthal.base.so:system/lib64/libeffecthal.base.so \
  vendor/umi/SUPER/proprietary/lib64/libeffecthal.JPG.so:system/lib64/libeffecthal.JPG.so \
+ vendor/umi/SUPER/proprietary/lib64/libem_audio_jni.so:system/lib64/libem_audio_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_bt_jni.so:system/lib64/libem_bt_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
+ vendor/umi/SUPER/proprietary/lib64/libem_mbim_jni.so:system/lib64/libem_mbim_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_modem_jni.so:system/lib64/libem_modem_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_sensor_jni.so:system/lib64/libem_sensor_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
+ vendor/umi/SUPER/proprietary/lib64/libEtsdc.so:system/lib64/libEtsdc.so \
  vendor/umi/SUPER/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
  vendor/umi/SUPER/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
  vendor/umi/SUPER/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
  vendor/umi/SUPER/proprietary/lib64/libfeatureio.jpg.so:system/lib64/libfeatureio.jpg.so \
  vendor/umi/SUPER/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
  vendor/umi/SUPER/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
+ vendor/umi/SUPER/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
+ vendor/umi/SUPER/proprietary/lib64/libflashlightjni.so:system/lib64/libflashlightjni.so \
  vendor/umi/SUPER/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
+ vendor/umi/SUPER/proprietary/lib64/libFpEts.so:system/lib64/libFpEts.so \
  vendor/umi/SUPER/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so \
  vendor/umi/SUPER/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/umi/SUPER/proprietary/lib64/libged.so:system/lib64/libged.so \
  vendor/umi/SUPER/proprietary/lib64/libgem.so:system/lib64/libgem.so \
  vendor/umi/SUPER/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
  vendor/umi/SUPER/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
+ vendor/umi/SUPER/proprietary/lib64/libgsensorcali_jni.so:system/lib64/libgsensorcali_jni.so \
+ vendor/umi/SUPER/proprietary/lib64/libhallwindowjni.so:system/lib64/libhallwindowjni.so \
  vendor/umi/SUPER/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
+ vendor/umi/SUPER/proprietary/lib64/libhevce_sb.ca7.android.so:system/lib64/libhevce_sb.ca7.android.so \
  vendor/umi/SUPER/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
  vendor/umi/SUPER/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
  vendor/umi/SUPER/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
+ vendor/umi/SUPER/proprietary/lib64/libimsma_rtp.so:system/lib64/libimsma_rtp.so \
+ vendor/umi/SUPER/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
+ vendor/umi/SUPER/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
  vendor/umi/SUPER/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
  vendor/umi/SUPER/proprietary/lib64/libion.so:system/lib64/libion.so \
  vendor/umi/SUPER/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
+ vendor/umi/SUPER/proprietary/lib64/libjhead_jni.so:system/lib64/libjhead_jni.so \
+ vendor/umi/SUPER/proprietary/lib64/libjhead.so:system/lib64/libjhead.so \
+ vendor/umi/SUPER/proprietary/lib64/libjni_jpegdecoder.so:system/lib64/libjni_jpegdecoder.so \
+ vendor/umi/SUPER/proprietary/lib64/libjni_lomoeffect.so:system/lib64/libjni_lomoeffect.so \
  vendor/umi/SUPER/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
  vendor/umi/SUPER/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
  vendor/umi/SUPER/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
+ vendor/umi/SUPER/proprietary/lib64/libled_testjni.so:system/lib64/libled_testjni.so \
  vendor/umi/SUPER/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_mdmngr.so:system/lib64/libmal_mdmngr.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_nwmngr.so:system/lib64/libmal_nwmngr.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
+ vendor/umi/SUPER/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
  vendor/umi/SUPER/proprietary/lib64/libmal.so:system/lib64/libmal.so \
  vendor/umi/SUPER/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
  vendor/umi/SUPER/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
@@ -327,6 +353,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libmemoryDumpEncoder.so:system/lib64/libmemoryDumpEncoder.so \
  vendor/umi/SUPER/proprietary/lib64/libmemorydumper.so:system/lib64/libmemorydumper.so \
  vendor/umi/SUPER/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
+ vendor/umi/SUPER/proprietary/lib64/libminiui.so:system/lib64/libminiui.so \
  vendor/umi/SUPER/proprietary/lib64/libmmprofile_jni.so:system/lib64/libmmprofile_jni.so \
  vendor/umi/SUPER/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
  vendor/umi/SUPER/proprietary/lib64/libmmsdkservice.so:system/lib64/libmmsdkservice.so \
@@ -340,7 +367,10 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
  vendor/umi/SUPER/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
  vendor/umi/SUPER/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
+ vendor/umi/SUPER/proprietary/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
+ vendor/umi/SUPER/proprietary/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
  vendor/umi/SUPER/proprietary/lib64/libMtkVideoTranscoder.so:system/lib64/libMtkVideoTranscoder.so \
+ vendor/umi/SUPER/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
  vendor/umi/SUPER/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
  vendor/umi/SUPER/proprietary/lib64/libnativecheck-jni.so:system/lib64/libnativecheck-jni.so \
  vendor/umi/SUPER/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
@@ -349,6 +379,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
  vendor/umi/SUPER/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
  vendor/umi/SUPER/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
+ vendor/umi/SUPER/proprietary/lib64/libOpenCLIcd.so:system/lib64/libOpenCLIcd.so \
  vendor/umi/SUPER/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
  vendor/umi/SUPER/proprietary/lib64/libperfservice.so:system/lib64/libperfservice.so \
  vendor/umi/SUPER/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
@@ -358,7 +389,10 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
  vendor/umi/SUPER/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
  vendor/umi/SUPER/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
+ vendor/umi/SUPER/proprietary/lib64/libRSDriver_mtk.so:system/lib64/libRSDriver_mtk.so \
+ vendor/umi/SUPER/proprietary/lib64/libsink.so:system/lib64/libsink.so \
  vendor/umi/SUPER/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
+ vendor/umi/SUPER/proprietary/lib64/libsource.so:system/lib64/libsource.so \
  vendor/umi/SUPER/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
  vendor/umi/SUPER/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
  vendor/umi/SUPER/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
@@ -369,12 +403,16 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/umi/SUPER/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/umi/SUPER/proprietary/lib64/libui.so:system/lib64/libui.so \
+ vendor/umi/SUPER/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
  vendor/umi/SUPER/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
+ vendor/umi/SUPER/proprietary/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
  vendor/umi/SUPER/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
+ vendor/umi/SUPER/proprietary/lib64/libvt_avsync.so:system/lib64/libvt_avsync.so \
  vendor/umi/SUPER/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/umi/SUPER/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/umi/SUPER/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/umi/SUPER/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
+ vendor/umi/SUPER/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
  vendor/umi/SUPER/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/umi/SUPER/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/umi/SUPER/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
@@ -396,17 +434,21 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
  vendor/umi/SUPER/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/umi/SUPER/proprietary/lib/liba3m.so:system/lib/liba3m.so \
+ vendor/umi/SUPER/proprietary/lib/libaal_cust.so:system/lib/libaal_cust.so \
  vendor/umi/SUPER/proprietary/lib/libaal.so:system/lib/libaal.so \
  vendor/umi/SUPER/proprietary/lib/libacdk.so:system/lib/libacdk.so \
  vendor/umi/SUPER/proprietary/lib/libaed.so:system/lib/libaed.so \
- vendor/umi/SUPER/proprietary/lib/lib_agoldcam_hi553_mipi_raw_JC_0517A_v1.so:system/lib/lib_agoldcam_hi553_mipi_raw_JC_0517A_v1.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldcam_imx230_mipi_raw_XL_9625A5_v1.so:system/lib/lib_agoldcam_imx230_mipi_raw_XL_9625A5_v1.so \
+ vendor/umi/SUPER/proprietary/lib/lib_agoldcam_s5k3l8_mipi_raw_SY_U5BM13_v1.so:system/lib/lib_agoldcam_s5k3l8_mipi_raw_SY_U5BM13_v1.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldlens_dw9714af_v1.so:system/lib/lib_agoldlens_dw9714af_v1.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldlens_dw9714af_v2.so:system/lib/lib_agoldlens_dw9714af_v2.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldlens_dw9714af_v3.so:system/lib/lib_agoldlens_dw9714af_v3.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldlens_dw9714af_v4.so:system/lib/lib_agoldlens_dw9714af_v4.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldlens_dw9800af_v1.so:system/lib/lib_agoldlens_dw9800af_v1.so \
  vendor/umi/SUPER/proprietary/lib/lib_agoldlens_dw9800af_v2.so:system/lib/lib_agoldlens_dw9800af_v2.so \
+ vendor/umi/SUPER/proprietary/lib/libagoldtpglove_jni.so:system/lib/libagoldtpglove_jni.so \
+ vendor/umi/SUPER/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
+ vendor/umi/SUPER/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
  vendor/umi/SUPER/proprietary/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
  vendor/umi/SUPER/proprietary/lib/libatvctrlservice.so:system/lib/libatvctrlservice.so \
  vendor/umi/SUPER/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
@@ -415,7 +457,9 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
  vendor/umi/SUPER/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
  vendor/umi/SUPER/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
+ vendor/umi/SUPER/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
  vendor/umi/SUPER/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+ vendor/umi/SUPER/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
  vendor/umi/SUPER/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
  vendor/umi/SUPER/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
  vendor/umi/SUPER/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
@@ -450,6 +494,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
  vendor/umi/SUPER/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
  vendor/umi/SUPER/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
+ vendor/umi/SUPER/proprietary/lib/libcam.jni.lomohaljni.so:system/lib/libcam.jni.lomohaljni.so \
  vendor/umi/SUPER/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
  vendor/umi/SUPER/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
  vendor/umi/SUPER/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
@@ -461,6 +506,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
  vendor/umi/SUPER/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
  vendor/umi/SUPER/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
+ vendor/umi/SUPER/proprietary/lib/libcomutils.so:system/lib/libcomutils.so \
  vendor/umi/SUPER/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/umi/SUPER/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/umi/SUPER/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -476,9 +522,11 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libeffect.facebeautypp.so:system/lib/libeffect.facebeautypp.so \
  vendor/umi/SUPER/proprietary/lib/libeffecthal.base.so:system/lib/libeffecthal.base.so \
  vendor/umi/SUPER/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
+ vendor/umi/SUPER/proprietary/lib/libem_audio_jni.so:system/lib/libem_audio_jni.so \
  vendor/umi/SUPER/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
  vendor/umi/SUPER/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
  vendor/umi/SUPER/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
+ vendor/umi/SUPER/proprietary/lib/libem_mbim_jni.so:system/lib/libem_mbim_jni.so \
  vendor/umi/SUPER/proprietary/lib/libem_modem_jni.so:system/lib/libem_modem_jni.so \
  vendor/umi/SUPER/proprietary/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
  vendor/umi/SUPER/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
@@ -497,6 +545,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
  vendor/umi/SUPER/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
  vendor/umi/SUPER/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
+ vendor/umi/SUPER/proprietary/lib/libflashlightjni.so:system/lib/libflashlightjni.so \
  vendor/umi/SUPER/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
  vendor/umi/SUPER/proprietary/lib/libfusion.so:system/lib/libfusion.so \
  vendor/umi/SUPER/proprietary/lib/libgas.so:system/lib/libgas.so \
@@ -504,18 +553,45 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libgem.so:system/lib/libgem.so \
  vendor/umi/SUPER/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
  vendor/umi/SUPER/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
+ vendor/umi/SUPER/proprietary/lib/libgsensorcali_jni.so:system/lib/libgsensorcali_jni.so \
+ vendor/umi/SUPER/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+ vendor/umi/SUPER/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
+ vendor/umi/SUPER/proprietary/lib/libhallwindowjni.so:system/lib/libhallwindowjni.so \
  vendor/umi/SUPER/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
+ vendor/umi/SUPER/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
+ vendor/umi/SUPER/proprietary/lib/libhevce_sb.ca7.android.so:system/lib/libhevce_sb.ca7.android.so \
  vendor/umi/SUPER/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/umi/SUPER/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
  vendor/umi/SUPER/proprietary/lib/libimageio.so:system/lib/libimageio.so \
+ vendor/umi/SUPER/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
+ vendor/umi/SUPER/proprietary/lib/libimsma.so:system/lib/libimsma.so \
+ vendor/umi/SUPER/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
  vendor/umi/SUPER/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
  vendor/umi/SUPER/proprietary/lib/libion.so:system/lib/libion.so \
  vendor/umi/SUPER/proprietary/lib/libja3m.so:system/lib/libja3m.so \
+ vendor/umi/SUPER/proprietary/lib/libjhead_jni.so:system/lib/libjhead_jni.so \
+ vendor/umi/SUPER/proprietary/lib/libjhead.so:system/lib/libjhead.so \
  vendor/umi/SUPER/proprietary/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
+ vendor/umi/SUPER/proprietary/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
+ vendor/umi/SUPER/proprietary/lib/libjni_filtershow_filters.so:system/lib/libjni_filtershow_filters.so \
+ vendor/umi/SUPER/proprietary/lib/libjni_jpegstream.so:system/lib/libjni_jpegstream.so \
+ vendor/umi/SUPER/proprietary/lib/libjni_lomoeffect.so:system/lib/libjni_lomoeffect.so \
  vendor/umi/SUPER/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
  vendor/umi/SUPER/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
  vendor/umi/SUPER/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
+ vendor/umi/SUPER/proprietary/lib/libjtranscode.so:system/lib/libjtranscode.so \
+ vendor/umi/SUPER/proprietary/lib/libled_testjni.so:system/lib/libled_testjni.so \
+ vendor/umi/SUPER/proprietary/lib/liblic_divx.so:system/lib/liblic_divx.so \
+ vendor/umi/SUPER/proprietary/lib/liblic_s263.so:system/lib/liblic_s263.so \
  vendor/umi/SUPER/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_mdmngr.so:system/lib/libmal_mdmngr.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
+ vendor/umi/SUPER/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
  vendor/umi/SUPER/proprietary/lib/libmal.so:system/lib/libmal.so \
  vendor/umi/SUPER/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
  vendor/umi/SUPER/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
@@ -524,17 +600,20 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
  vendor/umi/SUPER/proprietary/lib/libmemorydumper.so:system/lib/libmemorydumper.so \
  vendor/umi/SUPER/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
+ vendor/umi/SUPER/proprietary/lib/libminiui.so:system/lib/libminiui.so \
  vendor/umi/SUPER/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
  vendor/umi/SUPER/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
  vendor/umi/SUPER/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
  vendor/umi/SUPER/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/umi/SUPER/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
+ vendor/umi/SUPER/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
  vendor/umi/SUPER/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
  vendor/umi/SUPER/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
  vendor/umi/SUPER/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
  vendor/umi/SUPER/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
  vendor/umi/SUPER/proprietary/lib/libm.so:system/lib/libm.so \
  vendor/umi/SUPER/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
+ vendor/umi/SUPER/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
  vendor/umi/SUPER/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
  vendor/umi/SUPER/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
  vendor/umi/SUPER/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
@@ -555,8 +634,13 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
  vendor/umi/SUPER/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
  vendor/umi/SUPER/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
+ vendor/umi/SUPER/proprietary/lib/libmtksqlite3_android.so:system/lib/libmtksqlite3_android.so \
+ vendor/umi/SUPER/proprietary/lib/libmtksqlite3_custom.so:system/lib/libmtksqlite3_custom.so \
  vendor/umi/SUPER/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
  vendor/umi/SUPER/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+ vendor/umi/SUPER/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
+ vendor/umi/SUPER/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
+ vendor/umi/SUPER/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
  vendor/umi/SUPER/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
  vendor/umi/SUPER/proprietary/lib/libnativecheck-jni.so:system/lib/libnativecheck-jni.so \
  vendor/umi/SUPER/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
@@ -565,6 +649,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
  vendor/umi/SUPER/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
  vendor/umi/SUPER/proprietary/lib/libnvram.so:system/lib/libnvram.so \
+ vendor/umi/SUPER/proprietary/lib/libOpenCLIcd.so:system/lib/libOpenCLIcd.so \
  vendor/umi/SUPER/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
  vendor/umi/SUPER/proprietary/lib/libperfservice.so:system/lib/libperfservice.so \
  vendor/umi/SUPER/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
@@ -574,8 +659,11 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
  vendor/umi/SUPER/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
  vendor/umi/SUPER/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+ vendor/umi/SUPER/proprietary/lib/libRSDriver_mtk.so:system/lib/libRSDriver_mtk.so \
  vendor/umi/SUPER/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+ vendor/umi/SUPER/proprietary/lib/libsink.so:system/lib/libsink.so \
  vendor/umi/SUPER/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
+ vendor/umi/SUPER/proprietary/lib/libsource.so:system/lib/libsource.so \
  vendor/umi/SUPER/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
  vendor/umi/SUPER/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
  vendor/umi/SUPER/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
@@ -588,14 +676,25 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/libudf.so:system/lib/libudf.so \
  vendor/umi/SUPER/proprietary/lib/libui.so:system/lib/libui.so \
  vendor/umi/SUPER/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
+ vendor/umi/SUPER/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
  vendor/umi/SUPER/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
  vendor/umi/SUPER/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
  vendor/umi/SUPER/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
+ vendor/umi/SUPER/proprietary/lib/libvie_jni.so:system/lib/libvie_jni.so \
+ vendor/umi/SUPER/proprietary/lib/libvie.so:system/lib/libvie.so \
+ vendor/umi/SUPER/proprietary/lib/libvixl.so:system/lib/libvixl.so \
+ vendor/umi/SUPER/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
+ vendor/umi/SUPER/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
  vendor/umi/SUPER/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/umi/SUPER/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/umi/SUPER/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+ vendor/umi/SUPER/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
+ vendor/umi/SUPER/proprietary/lib/libvt_custom.so:system/lib/libvt_custom.so \
+ vendor/umi/SUPER/proprietary/lib/libvtmal.so:system/lib/libvtmal.so \
+ vendor/umi/SUPER/proprietary/lib/libvt_socketbind.so:system/lib/libvt_socketbind.so \
  vendor/umi/SUPER/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
  vendor/umi/SUPER/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+ vendor/umi/SUPER/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
  vendor/umi/SUPER/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
  vendor/umi/SUPER/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
  vendor/umi/SUPER/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
