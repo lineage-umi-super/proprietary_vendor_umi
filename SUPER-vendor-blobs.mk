@@ -205,6 +205,13 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
  vendor/umi/SUPER/proprietary/lib64/hw/mmsdk.mt6755.so:system/lib64/hw/mmsdk.mt6755.so \
  vendor/umi/SUPER/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
+ vendor/umi/SUPER/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
  vendor/umi/SUPER/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/umi/SUPER/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/umi/SUPER/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
@@ -431,6 +438,13 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/umi/SUPER/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
  vendor/umi/SUPER/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+ vendor/umi/SUPER/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
  vendor/umi/SUPER/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
  vendor/umi/SUPER/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/umi/SUPER/proprietary/lib/liba3m.so:system/lib/liba3m.so \
