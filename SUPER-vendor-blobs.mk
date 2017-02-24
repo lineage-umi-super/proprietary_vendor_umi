@@ -155,6 +155,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/etc/audio_param/VolumeGainMap_AudioParam.xml:system/etc/audio_param/VolumeGainMap_AudioParam.xml \
  vendor/umi/SUPER/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
  vendor/umi/SUPER/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
+ vendor/umi/SUPER/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
  vendor/umi/SUPER/proprietary/etc/custom.conf:system/etc/custom.conf \
  vendor/umi/SUPER/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/umi/SUPER/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
@@ -187,9 +188,13 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/umi/SUPER/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
  vendor/umi/SUPER/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
+ vendor/umi/SUPER/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
+ vendor/umi/SUPER/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
  vendor/umi/SUPER/proprietary/lib64/hw/audio.primary.default.so:system/lib64/hw/audio.primary.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
+ vendor/umi/SUPER/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
+ vendor/umi/SUPER/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/camera.default.so:system/lib64/hw/camera.default.so \
  vendor/umi/SUPER/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
  vendor/umi/SUPER/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
@@ -417,9 +422,13 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
  vendor/umi/SUPER/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/umi/SUPER/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
+ vendor/umi/SUPER/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+ vendor/umi/SUPER/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
  vendor/umi/SUPER/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
  vendor/umi/SUPER/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
  vendor/umi/SUPER/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
+ vendor/umi/SUPER/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+ vendor/umi/SUPER/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
  vendor/umi/SUPER/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
  vendor/umi/SUPER/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
  vendor/umi/SUPER/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
