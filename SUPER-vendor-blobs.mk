@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
  vendor/umi/SUPER/proprietary/etc/audio_param/VolumeGainMap_AudioParam.xml:system/etc/audio_param/VolumeGainMap_AudioParam.xml \
  vendor/umi/SUPER/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
  vendor/umi/SUPER/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
- vendor/umi/SUPER/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
  vendor/umi/SUPER/proprietary/etc/custom.conf:system/etc/custom.conf \
  vendor/umi/SUPER/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/umi/SUPER/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
