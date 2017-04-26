@@ -89,6 +89,10 @@ PRODUCT_COPY_FILES += \
  vendor/umi/super/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/umi/super/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/umi/super/proprietary/bin/terservice:system/bin/terservice \
+ vendor/umi/super/proprietary/bin/thermal:system/bin/thermal \
+ vendor/umi/super/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+ vendor/umi/super/proprietary/bin/thermald:system/bin/thermald \
+ vendor/umi/super/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod
  vendor/umi/super/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/umi/super/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/umi/super/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -184,6 +188,13 @@ PRODUCT_COPY_FILES += \
  vendor/umi/super/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
  vendor/umi/super/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
  vendor/umi/super/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
+ vendor/umi/super/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
+ vendor/umi/super/proprietary/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
+ vendor/umi/super/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
+ vendor/umi/super/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
+ vendor/umi/super/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
+ vendor/umi/super/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+ vendor/umi/super/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
  vendor/umi/super/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/umi/super/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/umi/super/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
