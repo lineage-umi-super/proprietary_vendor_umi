@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/super/proprietary/bin/thermal:system/bin/thermal \
  vendor/umi/super/proprietary/bin/thermal_manager:system/bin/thermal_manager \
  vendor/umi/super/proprietary/bin/thermald:system/bin/thermald \
- vendor/umi/super/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod
+ vendor/umi/super/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod \
  vendor/umi/super/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/umi/super/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/umi/super/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -212,7 +212,6 @@ PRODUCT_COPY_FILES += \
  vendor/umi/super/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
  vendor/umi/super/proprietary/lib64/hw/gralloc.mt6755.so:system/lib64/hw/gralloc.mt6755.so \
  vendor/umi/super/proprietary/lib64/hw/hwcomposer.mt6755.so:system/lib64/hw/hwcomposer.mt6755.so \
- vendor/umi/super/proprietary/lib64/hw/lights.mt6755.so:system/lib64/hw/lights.mt6755.so \
  vendor/umi/super/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
  vendor/umi/super/proprietary/lib64/hw/mmsdk.mt6755.so:system/lib64/hw/mmsdk.mt6755.so \
  vendor/umi/super/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
@@ -445,7 +444,6 @@ PRODUCT_COPY_FILES += \
  vendor/umi/super/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
  vendor/umi/super/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
  vendor/umi/super/proprietary/lib/hw/hwcomposer.mt6755.so:system/lib/hw/hwcomposer.mt6755.so \
- vendor/umi/super/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
  vendor/umi/super/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/umi/super/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
  vendor/umi/super/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
