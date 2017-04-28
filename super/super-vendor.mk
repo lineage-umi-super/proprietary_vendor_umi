@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
  vendor/umi/super/proprietary/bin/qmcX983d:system/bin/qmcX983d \
  vendor/umi/super/proprietary/bin/radvd:system/bin/radvd \
  vendor/umi/super/proprietary/bin/s62xd:system/bin/s62xd \
+ vendor/umi/super/proprietary/bin/slpd:system/bin/slpd \
  vendor/umi/super/proprietary/bin/sn:system/bin/sn \
  vendor/umi/super/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/umi/super/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
